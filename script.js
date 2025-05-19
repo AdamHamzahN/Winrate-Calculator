@@ -7,7 +7,7 @@ function hitung() {
     if (winrate > 100) {
         alert("Mohon masukkan winrate dengan benar");
     } else if (!jumlahmatch || !winrate || !targetwinrate) {
-        alert("Mohon masukkan winrate dengan benar kontol")
+        alert("Mohon lengkapi input terlebih dahulu")
     } else if (targetwinrate >= 100) {
         document.getElementById('hasil').innerHTML = `<h5>Mohon maaf winrate <span>100%</span> yang ditargetkan tidak mungkin dicapai<h5>`;
         divHasil.classList.add('show-border');
